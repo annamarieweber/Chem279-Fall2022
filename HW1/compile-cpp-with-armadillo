@@ -1,0 +1,16 @@
+Suppose I have c++ files file1.cpp, file2.cpp, file3.cpp and I want to generate a program called "prog" using these source code, the followings are what we have to do:
+Method 1: Compile c++ files individually then link them
+g++ -c file1.cpp       # comment here: these command will generate the object files file1.o file2.o and 
+g++ -c file2.cpp       # file3.o, these are the object files the compileer creates, not the final executable
+g++ -c file3.cpp       # we want, you need to link them												              
+g++ -o prog file1.o file2.o file3.o        # this links the object files, you can name your program after '-o', otherwise it will be named a.out by default                              
+Method 2: Compile c++ files without saving the intermediate object files
+g++ -o prog file1.cpp file2.cpp file3.cpp
+Method 3: Compile all c++ files in the current directory
+g++ -o prog *.cpp             # * is a wildcard in linux that matches any string, so *.cpp are all files with name
+                              # ending with .cpp
+If you used armadillo package in your c++ code, you need to tell the compiler to link it during compilation
+The command below generally works:
+g++ *.cpp -o prog -O2 -std=c++11 -larmadillo
+This works for my Mac:
+g++ -std=c++11 *.cpp -o prog -O2 -DARMA_DONT_USE_WRAPPER -DARMA_USE_BLAS -DARMA_USE_LAPACK -DARMA_USE_HDF5 -lblas -llapack
