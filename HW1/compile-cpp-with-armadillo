@@ -14,3 +14,4 @@ The command below generally works:
 g++ *.cpp -o prog -O2 -std=c++11 -larmadillo
 This works for my Mac:
 g++ -std=c++11 *.cpp -o prog -O2 -DARMA_DONT_USE_WRAPPER -DARMA_USE_BLAS -DARMA_USE_LAPACK -DARMA_USE_HDF5 -lblas -llapack
+test line
