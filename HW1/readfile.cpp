@@ -32,6 +32,9 @@ void readfile(vector<Student> &students, string &filename) {
 		int age;
 		double score;
 		while (infile >> name >> age >> score) {
+//			if (name != "Alice") {
+//				throw std::invalid_argument("Not Alice");
+//			}
 			Student new_student(name, age, score);
 			students.push_back(new_student);
 		}
