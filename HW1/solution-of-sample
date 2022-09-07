@@ -1,11 +1,25 @@
-Force
+# comment: I used stepsize h = 1e-4 for finite difference force
+# evaluation. The steepest descent algorithm terminates when the
+# norm of the force is lower than 1e-2 (which means energy does not
+# change much)
+Forward fd Force
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+  -5.9862e+05  -7.5599e+06   6.0810e+06  -9.2299e+02   2.0695e+06
+Forward fd Force norm: 9.9384e+06
+Central fd Force
             0            0            0            0            0
             0            0            0            0            0
   -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
-Force norm: 9.93837e+06
+Central fd Force norm: 9.93837e+06
+Analytic Force
+            0            0            0            0            0
+            0            0            0            0            0
+  -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
+Analytic Force norm: 9.93837e+06
 Energy: 2.01857e+06
 
-Start opt
+Start opt with central finite difference force evaluation
 
 count 0 Energy: 1.80101e+06
 new_point
