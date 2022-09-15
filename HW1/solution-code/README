@@ -1,0 +1,1 @@
+The example[1-6].txt are 6 testing systems, ref[1-6] are optimized with normal gradient descent algorithm, test[1-6] are optimized with gradient descent with line search. In most cases, gradient descent with line search converges much faster than the normal gradient discent method.
