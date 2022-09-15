@@ -1,0 +1,125 @@
+Forward fd Force
+   2.5748e-03   2.6156e-03   3.9121e-05
+  -2.0593e+02   2.0202e+02   3.8418e+00
+   2.5748e-03   2.6156e-03   3.9121e-05
+Forward fd Force norm: 288.504
+Central fd Force
+            0            0            0
+  -2.0590e+02   2.0205e+02   3.8430e+00
+            0            0            0
+Central fd Force norm: 288.504
+Analytic Force
+            0            0            0
+  -2.0590e+02   2.0205e+02   3.8430e+00
+            0            0            0
+Analytic Force norm: 288.504
+Energy: 50.1845
+
+Start opt with central finite difference force evaluation
+
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.36
+Bracketing for line search, finding D point with stepsize 0.43
+Bracketing for line search, finding D point with stepsize 0.52
+Bracketing for line search, finding D point with stepsize 0.62
+Bracketing for line search, D point found
+current energy: 5.924e-01
+new_point
+        0        0        0
+  -4.4001   0.3927   5.0075
+        0        0        0
+Force norm: 26.9202
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -3.964e+00
+new_point
+        0        0        0
+  -4.6056   0.1753   5.4303
+        0        0        0
+Force norm: 15.8062
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.691e+00
+new_point
+        0        0        0
+  -4.7965   0.3626   5.4339
+        0        0        0
+Force norm: 3.09839
+Bracketing for line search, finding B point with stepsize 0.31
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.918e+00
+new_point
+        0        0        0
+  -4.8634   0.2919   5.5715
+        0        0        0
+Force norm: 1.80249
+Bracketing for line search, finding B point with stepsize 0.16
+Bracketing for line search, finding B point with stepsize 0.08
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.979e+00
+new_point
+        0        0        0
+  -4.9143   0.3419   5.5724
+        0        0        0
+Force norm: 0.55543
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.991e+00
+new_point
+        0        0        0
+  -4.9310   0.3242   5.6068
+        0        0        0
+Force norm: 0.323052
+Bracketing for line search, finding B point with stepsize 0.04
+Bracketing for line search, finding B point with stepsize 0.02
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.993e+00
+new_point
+        0        0        0
+  -4.9423   0.3353   5.6070
+        0        0        0
+Force norm: 0.112116
+Bracketing for line search, finding B point with stepsize 0.01
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.994e+00
+new_point
+        0        0        0
+  -4.9459   0.3314   5.6145
+        0        0        0
+Force norm: 0.0652324
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.994e+00
+new_point
+        0        0        0
+  -4.9483   0.3337   5.6146
+        0        0        0
+Force norm: 0.0232376
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.994e+00
+new_point
+        0        0        0
+  -4.9491   0.3329   5.6162
+        0        0        0
+Force norm: 0.013522
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.994e+00
+new_point
+        0        0        0
+  -4.9496   0.3334   5.6162
+        0        0        0
+Force norm: 0.00484366
+Total iterations: 11
+Final energy: -5.994e+00
+79(0, -4.94958, 0)
+79(0, 0.33342, 0)
+79(0, 5.61616, 0)

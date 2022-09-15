@@ -1,0 +1,120 @@
+Forward fd Force
+   2.5748e-03   2.6156e-03   3.9121e-05
+  -2.0593e+02   2.0202e+02   3.8418e+00
+   2.5748e-03   2.6156e-03   3.9121e-05
+Forward fd Force norm: 288.504
+Central fd Force
+            0            0            0
+  -2.0590e+02   2.0205e+02   3.8430e+00
+            0            0            0
+Central fd Force norm: 288.504
+Analytic Force
+            0            0            0
+  -2.0590e+02   2.0205e+02   3.8430e+00
+            0            0            0
+Analytic Force norm: 288.504
+Energy: 50.1845
+
+Start opt with central finite difference force evaluation
+
+count 0 Energy: 6.71017
+new_point
+        0        0        0
+  -4.2141   0.2101   5.0040
+        0        0        0
+Force norm: 57.3872
+count 1 Energy: -1.08621
+new_point
+        0        0        0
+  -4.4953   0.4248   5.0706
+        0        0        0
+Force norm: 24.4702
+count 2 Energy: -4.01486
+new_point
+        0        0        0
+  -4.6005   0.1858   5.4147
+        0        0        0
+Force norm: 15.2838
+count 3 Energy: -4.74999
+new_point
+        0        0        0
+  -4.9744   0.5445   5.4299
+        0        0        0
+Force norm: 10.9516
+count 4 Energy: -4.96662
+new_point
+        0        0        0
+  -4.9077   0.0750   5.8326
+        0        0        0
+Force norm: 7.46241
+count 5 Energy: -4.72764
+count 6 Energy: -5.82572
+new_point
+        0        0        0
+  -5.1252   0.3687   5.7566
+        0        0        0
+Force norm: 1.33878
+count 7 Energy: -5.47629
+count 8 Energy: -5.97039
+new_point
+        0        0        0
+  -4.9437   0.2968   5.6469
+        0        0        0
+Force norm: 1.00569
+count 9 Energy: -5.35935
+count 10 Energy: -5.90104
+count 11 Energy: -5.98759
+new_point
+        0        0        0
+  -4.9680   0.3516   5.6164
+        0        0        0
+Force norm: 0.511768
+count 12 Energy: -5.95526
+count 13 Energy: -5.99019
+new_point
+        0        0        0
+  -4.9473   0.3191   5.6282
+        0        0        0
+Force norm: 0.403726
+count 14 Energy: -5.98286
+count 15 Energy: -5.99328
+new_point
+        0        0        0
+  -4.9555   0.3387   5.6167
+        0        0        0
+Force norm: 0.155708
+count 16 Energy: -5.9882
+count 17 Energy: -5.99316
+count 18 Energy: -5.99382
+new_point
+        0        0        0
+  -4.9516   0.3329   5.6187
+        0        0        0
+Force norm: 0.0236014
+count 19 Energy: -5.99357
+count 20 Energy: -5.99381
+count 21 Energy: -5.99384
+new_point
+        0        0        0
+  -4.9507   0.3338   5.6169
+        0        0        0
+Force norm: 0.0149843
+count 22 Energy: -5.99381
+count 23 Energy: -5.99384
+new_point
+        0        0        0
+  -4.9498   0.3328   5.6170
+        0        0        0
+Force norm: 0.0144038
+count 24 Energy: -5.99384
+count 25 Energy: -5.99385
+new_point
+        0        0        0
+  -4.9501   0.3335   5.6166
+        0        0        0
+Force norm: 0.00404345
+Total iterations: 26
+Final energy: -5.994e+00
+79(0, -4.95009, 0)
+79(0, 0.333469, 0)
+79(0, 5.61662, 0)
