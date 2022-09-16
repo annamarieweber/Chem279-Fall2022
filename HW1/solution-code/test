@@ -1,0 +1,4045 @@
+Forward fd Force
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+  -5.9862e+05  -7.5599e+06   6.0810e+06  -9.2299e+02   2.0695e+06
+Forward fd Force norm: 9.9384e+06
+Central fd Force
+            0            0            0            0            0
+            0            0            0            0            0
+  -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
+Central fd Force norm: 9.93837e+06
+Analytic Force
+            0            0            0            0            0
+            0            0            0            0            0
+  -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
+Analytic Force norm: 9.93837e+06
+Energy: 2.01857e+06
+
+Start opt with central finite difference force evaluation
+
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.420e+06
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.9910   3.0863   5.0916   7.0000   9.0311
+Force norm: 3.5568e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.143e+06
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.9250   3.0382   4.9831   7.1241   9.1296
+Force norm: 3.83453e+06
+Bracketing for line search, finding B point with stepsize 0.15
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 8.906e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.8874   2.9641   5.0650   7.0792   9.2043
+Force norm: 2.01495e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 7.254e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.7698   2.9828   4.9882   7.1692   9.2902
+Force norm: 2.27483e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.893e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.7385   2.8958   5.0691   7.1501   9.3465
+Force norm: 1.28441e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.817e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.6221   2.9099   4.9848   7.2458   9.4374
+Force norm: 1.4728e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.915e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.5906   2.8208   5.0700   7.2231   9.4954
+Force norm: 828246
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.182e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.4679   2.8358   4.9834   7.3221   9.5908
+Force norm: 937773
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.588e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.4354   2.7439   5.0708   7.2993   9.6506
+Force norm: 527837
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.104e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.3071   2.7591   4.9802   7.4029   9.7506
+Force norm: 607533
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.698e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.2727   2.6632   5.0711   7.3798   9.8132
+Force norm: 332391
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.18
+Bracketing for line search, D point found
+current energy: 1.368e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.1336   2.6770   4.9770   7.4893   9.9230
+Force norm: 386597
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.100e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.0988   2.5770   5.0718   7.4656   9.9868
+Force norm: 206896
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 8.872e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.0463    2.5916    4.9738    7.5791   10.1019
+Force norm: 245170
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 7.141e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.0804    2.4871    5.0736    7.5536   10.1662
+Force norm: 130636
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.806e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.2246    2.5044    4.9730    7.6676   10.2796
+Force norm: 153267
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.687e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.2608    2.3972    5.0750    7.6417   10.3470
+Force norm: 83344.7
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.799e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.4099    2.4141    4.9711    7.7605   10.4642
+Force norm: 96753.6
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.057e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.4492    2.3034    5.0757    7.7344   10.5357
+Force norm: 52521.2
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.472e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.6058    2.3205    4.9679    7.8584   10.6590
+Force norm: 61505.5
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.986e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.6459    2.2046    5.0777    7.8309   10.7328
+Force norm: 33309
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.600e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.8071    2.2221    4.9668    7.9586   10.8596
+Force norm: 38213.2
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.287e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.8493    2.1032    5.0791    7.9305   10.9366
+Force norm: 21011.2
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.22
+Bracketing for line search, D point found
+current energy: 1.040e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.0126    2.1218    4.9650    8.0613   11.0644
+Force norm: 24029.1
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 8.356e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.0573    2.0000    5.0796    8.0328   11.1449
+Force norm: 13211.9
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 6.734e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.2287    2.0183    4.9615    8.1694   11.2795
+Force norm: 15283.3
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.397e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.2736    1.8921    5.0807    8.1395   11.3613
+Force norm: 8308.24
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.329e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.4529    1.9104    4.9587    8.2812   11.5026
+Force norm: 9621.27
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.466e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.4983    1.7798    5.0823    8.2500   11.5861
+Force norm: 5228.46
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.771e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.6827    1.7984    4.9568    8.3959   11.7315
+Force norm: 6006.19
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.220e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.7287    1.6655    5.0830    8.3635   11.8167
+Force norm: 3272.23
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.783e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.9164    1.6858    4.9536    8.5128   11.9642
+Force norm: 3824.63
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.419e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.9639    1.5487    5.0834    8.4799   12.0518
+Force norm: 2051.91
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.26
+Bracketing for line search, D point found
+current energy: 1.135e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.1597    1.5690    4.9501    8.6343   12.2063
+Force norm: 2429.23
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 8.968e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.2082    1.4267    5.0847    8.6006   12.2962
+Force norm: 1286.85
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 7.131e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.4095    1.4473    4.9482    8.7588   12.4552
+Force norm: 1518.27
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.622e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.4577    1.3026    5.0854    8.7239   12.5458
+Force norm: 805.143
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.441e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.6646    1.3229    4.9458    8.8864   12.7094
+Force norm: 953.625
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.466e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.7142    1.1752    5.0855    8.8512   12.8023
+Force norm: 500.196
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.704e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.9287    1.1943    4.9434    9.0183   12.9727
+Force norm: 595.958
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.079e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.9805    1.0414    5.0872    8.9829   13.0690
+Force norm: 311.439
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.605e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.1930    1.0615    4.9445    9.1500   13.2369
+Force norm: 363.711
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.226e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.2431    0.9113    5.0866    9.1134   13.3319
+Force norm: 193.431
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 9.286e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.4591    0.9302    4.9426    9.2838   13.5025
+Force norm: 228.784
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 6.890e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.5081    0.7797    5.0853    9.2464   13.5967
+Force norm: 119.286
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.023e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.7290    0.7969    4.9415    9.4186   13.7720
+Force norm: 143.164
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.525e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.7767    0.6458    5.0845    9.3813   13.8651
+Force norm: 73.2629
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.395e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.9940    0.6621    4.9435    9.5510   14.0375
+Force norm: 87.8694
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.498e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.0395    0.5144    5.0834    9.5136   14.1281
+Force norm: 45.11
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 8.260e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.2477    0.5294    4.9480    9.6779   14.2924
+Force norm: 53.5324
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.960e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.2922    0.3878    5.0814    9.6418   14.3813
+Force norm: 27.777
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -9.088e-01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.4851    0.4018    4.9550    9.7965   14.5319
+Force norm: 32.4926
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -3.925e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.5267    0.2698    5.0789    9.7617   14.6163
+Force norm: 17.2744
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -6.090e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.6980    0.2831    4.9644    9.9029   14.7477
+Force norm: 19.7524
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -7.778e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.7369    0.1645    5.0747    9.8711   14.8266
+Force norm: 10.7492
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -8.974e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.8871    0.1752    4.9742    9.9976   14.9401
+Force norm: 12.1444
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -9.891e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.9209    0.0718    5.0699    9.9687   15.0104
+Force norm: 6.73353
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.053e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.0469    0.0805    4.9851   10.0777   15.1036
+Force norm: 7.51576
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.100e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.0733   -0.0058    5.0653   10.0514   15.1625
+Force norm: 4.29096
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.131e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1707    0.0030    4.9966   10.1395   15.2316
+Force norm: 4.70868
+Bracketing for line search, finding B point with stepsize 0.13
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.156e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1932   -0.0665    5.0600   10.1185   15.2813
+Force norm: 2.75321
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.172e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.2703   -0.0605    5.0062   10.1899   15.3347
+Force norm: 3.01449
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.183e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.2837   -0.1127    5.0550   10.1709   15.3705
+Force norm: 1.79115
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.192e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3440   -0.1095    5.0146   10.2272   15.4118
+Force norm: 1.95449
+Bracketing for line search, finding B point with stepsize 0.06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.197e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3548   -0.1503    5.0519   10.2126   15.4406
+Force norm: 1.19036
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.201e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3948   -0.1458    5.0224   10.2523   15.4659
+Force norm: 1.24998
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.204e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4028   -0.1747    5.0483   10.2421   15.4871
+Force norm: 0.786097
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.205e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4312   -0.1704    5.0260   10.2716   15.5039
+Force norm: 0.898112
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.207e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4357   -0.1919    5.0460   10.2626   15.5190
+Force norm: 0.541352
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.208e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4556   -0.1893    5.0310   10.2832   15.5308
+Force norm: 0.575365
+Bracketing for line search, finding B point with stepsize 0.03
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.208e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4590   -0.2049    5.0452   10.2768   15.5419
+Force norm: 0.40283
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4707   -0.2007    5.0336   10.2907   15.5471
+Force norm: 0.411098
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4721   -0.2117    5.0441   10.2852   15.5544
+Force norm: 0.311104
+Bracketing for line search, finding B point with stepsize 0.02
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4804   -0.2078    5.0349   10.2957   15.5575
+Force norm: 0.320568
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4816   -0.2166    5.0434   10.2913   15.5635
+Force norm: 0.248031
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4878   -0.2135    5.0362   10.2994   15.5656
+Force norm: 0.244077
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4897   -0.2213    5.0431   10.2964   15.5715
+Force norm: 0.206687
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4946   -0.2187    5.0373   10.3029   15.5731
+Force norm: 0.177303
+Bracketing for line search, finding B point with stepsize 0.01
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4950   -0.2241    5.0428   10.2997   15.5766
+Force norm: 0.175852
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4987   -0.2218    5.0380   10.3049   15.5776
+Force norm: 0.138711
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5004   -0.2270    5.0424   10.3032   15.5818
+Force norm: 0.1434
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5030   -0.2248    5.0385   10.3072   15.5821
+Force norm: 0.107598
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5003   -0.2268    5.0423   10.3032   15.5816
+Force norm: 0.137992
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.00
+Bracketing for line search, finding D point with stepsize 0.00
+Bracketing for line search, finding D point with stepsize 0.00
+Bracketing for line search, finding D point with stepsize 0.00
+Bracketing for line search, finding D point with stepsize 0.01
+Bracketing for line search, finding D point with stepsize 0.01
+Bracketing for line search, finding D point with stepsize 0.01
+Bracketing for line search, finding D point with stepsize 0.01
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5033   -0.2249    5.0384   10.3075   15.5823
+Force norm: 0.110296
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5018   -0.2276    5.0421   10.3043   15.5831
+Force norm: 0.126735
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5031   -0.2249    5.0385   10.3073   15.5822
+Force norm: 0.107184
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.124401
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106365
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123988
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106214
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.12391
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106186
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123895
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.10618
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5019   -0.2276    5.0420   10.3044   15.5831
+Force norm: 0.123892
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5032   -0.2249    5.0385   10.3073   15.5823
+Force norm: 0.106179
+Total iterations: 500
+79(0, 0, -5.50316)
+79(0, 0, -0.224941)
+79(0, 0, 5.0385)
+79(0, 0, 10.3073)
+79(0, 0, 15.5823)

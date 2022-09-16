@@ -1,0 +1,432 @@
+# comment: I used stepsize h = 1e-4 for finite difference force
+# evaluation. The steepest descent algorithm terminates when the
+# norm of the force is lower than 1e-2 (which means energy does not
+# change much)
+Forward fd Force
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+  -5.9862e+05  -7.5599e+06   6.0810e+06  -9.2299e+02   2.0695e+06
+Forward fd Force norm: 9.9384e+06
+Central fd Force
+            0            0            0            0            0
+            0            0            0            0            0
+  -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
+Central fd Force norm: 9.93837e+06
+Analytic Force
+            0            0            0            0            0
+            0            0            0            0            0
+  -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
+Analytic Force norm: 9.93837e+06
+Energy: 2.01857e+06
+
+Start opt with central finite difference force evaluation
+
+count 0 Energy: 1.80101e+06
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.9819   2.9719   5.1837   7.0000   9.0625
+Force norm: 9.4182e+06
+count 1 Energy: 1.56012e+06
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.8975   3.0350   4.9279   7.2241   9.1155
+Force norm: 7.81883e+06
+count 2 Energy: 1.26689e+06
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.8493   2.8489   5.1432   7.0065   9.3521
+Force norm: 7.43856e+06
+count 3 Energy: 1.36784e+06
+count 4 Energy: 620011
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.7770   2.9092   4.9740   7.1787   9.3611
+Force norm: 1.44565e+06
+count 5 Energy: 507758
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.5834   2.8088   5.1428   7.1610   9.5040
+Force norm: 2.30482e+06
+count 6 Energy: 498158
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.5000   2.8474   4.8898   7.4162   9.5466
+Force norm: 2.33787e+06
+count 7 Energy: 397687
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.4508   2.5949   5.1727   7.2609   9.7208
+Force norm: 1.89774e+06
+count 8 Energy: 386676
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.2139   2.8104   4.8598   7.5557   9.7603
+Force norm: 2.20099e+06
+count 9 Energy: 317426
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.1937   2.3892   5.2888   7.3974   9.9309
+Force norm: 1.63897e+06
+count 10 Energy: 326088
+count 11 Energy: 116981
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.0486   2.5305   5.0471   7.6206   9.9533
+Force norm: 367227
+count 12 Energy: 103466
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.1084    2.5566    5.0802    7.3657   10.3058
+Force norm: 444706
+count 13 Energy: 114490
+count 14 Energy: 69240.7
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.1390    2.5247    4.9147    7.5853   10.3142
+Force norm: 227354
+count 15 Energy: 62161.8
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.2114    2.2984    5.1434    7.6026   10.3670
+Force norm: 214741
+count 16 Energy: 49834.2
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.4117    2.4600    4.9207    7.8075   10.4235
+Force norm: 188620
+count 17 Energy: 47604.4
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.4585    2.1526    5.2313    7.6920   10.5827
+Force norm: 199301
+count 18 Energy: 39245.1
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.6438    2.3166    4.8502    8.0455   10.6315
+Force norm: 158170
+count 19 Energy: 36312.3
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.6977    1.9550    5.2461    7.7471   10.9495
+Force norm: 169464
+count 20 Energy: 32700
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.9529    2.1954    4.7096    8.2771   10.9708
+Force norm: 155564
+count 21 Energy: 31997.2
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.9878    1.5578    5.3756    8.0108   11.2436
+Force norm: 147620
+count 22 Energy: 17310.8
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.7111    2.2779    4.9189    8.4398   11.2746
+Force norm: 82467.2
+count 23 Energy: 97919.2
+count 24 Energy: 5930.53
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.7130    1.7998    5.3882    8.2608   11.4641
+Force norm: 22693.2
+count 25 Energy: 8768.45
+count 26 Energy: 3876.05
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.7368    1.8058    5.0589    8.5258   11.5463
+Force norm: 12759.9
+count 27 Energy: 2878.64
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.7821    1.7084    5.1410    8.2042   11.9286
+Force norm: 9613.48
+count 28 Energy: 3069.21
+count 29 Energy: 1934.14
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.8262    1.6972    4.9435    8.4388   11.9467
+Force norm: 3756.73
+count 30 Energy: 1698.85
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.9455    1.4575    5.1696    8.4450   12.0734
+Force norm: 4336.38
+count 31 Energy: 1395.11
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.1439    1.5954    4.8991    8.6930   12.1564
+Force norm: 3885.25
+count 32 Energy: 1248.76
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.2174    1.2734    5.2345    8.5433   12.3661
+Force norm: 3963.98
+count 33 Energy: 1060.01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.4390    1.4568    4.8172    8.9354   12.4296
+Force norm: 3448.31
+count 34 Energy: 960.488
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.5062    1.0133    5.2978    8.6636   12.7314
+Force norm: 3431.21
+count 35 Energy: 845.135
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.8363    1.3235    4.7149    9.2230   12.7749
+Force norm: 3132.14
+count 36 Energy: 780.118
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.8774    0.6487    5.4194    8.8514   13.1579
+Force norm: 2904.35
+count 37 Energy: 686.619
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.4248    1.1910    4.6356    9.6089   13.1893
+Force norm: 2668.02
+count 38 Energy: 666.184
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.4379    0.2228    5.6143    9.0306   13.7702
+Force norm: 2765.79
+count 39 Energy: 582.171
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.9343    0.7199    4.3438   10.2912   13.7793
+Force norm: 2264
+count 40 Energy: 249.365
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.9533   -0.0966    5.1811    8.8840   15.1848
+Force norm: 992.242
+count 41 Energy: 13750.8
+count 42 Energy: 58.005
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.4358    0.3862    4.3302    9.7364   15.1829
+Force norm: 350.356
+count 43 Energy: 172.717
+count 44 Energy: 9.97712
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.4579   -0.1887    4.9293    9.7365   15.1807
+Force norm: 110.741
+count 45 Energy: 3.32923
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1646    0.5032    4.8542    9.8349   15.1723
+Force norm: 80.9192
+count 46 Energy: 12.9346
+count 47 Energy: -7.38753
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1537    0.0605    5.2546    9.8692   15.1694
+Force norm: 30.6244
+count 48 Energy: -6.63255
+count 49 Energy: -10.9666
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1608    0.0591    5.0062   10.1281   15.1675
+Force norm: 6.7484
+count 50 Energy: -9.60424
+count 51 Energy: -11.2495
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1780   -0.0879    5.1179   10.0815   15.2665
+Force norm: 6.29298
+count 52 Energy: -11.2852
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.2689   -0.0225    4.9495   10.2379   15.3040
+Force norm: 7.33796
+count 53 Energy: -11.3271
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.2812   -0.2011    5.1455   10.1221   15.4147
+Force norm: 7.64581
+count 54 Energy: -11.1785
+count 55 Energy: -11.9413
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3392   -0.1307    5.0258   10.2315   15.4126
+Force norm: 1.44913
+count 56 Energy: -11.8096
+count 57 Energy: -11.9823
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3904   -0.1719    5.0696   10.2057   15.4871
+Force norm: 1.98894
+count 58 Energy: -11.9631
+count 59 Energy: -12.0406
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4095   -0.1624    5.0296   10.2551   15.4873
+Force norm: 0.797227
+count 60 Energy: -12.0529
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4392   -0.2118    5.0646   10.2555   15.5309
+Force norm: 1.30085
+count 61 Energy: -12.0371
+count 62 Energy: -12.0796
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4570   -0.1936    5.0345   10.2831   15.5329
+Force norm: 0.452083
+count 63 Energy: -12.0788
+count 64 Energy: -12.0858
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4669   -0.2103    5.0467   10.2801   15.5504
+Force norm: 0.419194
+count 65 Energy: -12.088
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4846   -0.2053    5.0291   10.3023   15.5585
+Force norm: 0.56043
+count 66 Energy: -12.0872
+count 67 Energy: -12.0936
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4855   -0.2176    5.0417   10.2949   15.5666
+Force norm: 0.186324
+count 68 Energy: -12.0955
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5014   -0.2197    5.0345   10.3083   15.5782
+Force norm: 0.273132
+count 69 Energy: -12.0918
+count 70 Energy: -12.0966
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5018   -0.2291    5.0436   10.3035   15.5839
+Force norm: 0.182818
+count 71 Energy: -12.0959
+count 72 Energy: -12.0973
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5057   -0.2264    5.0383   10.3090   15.5847
+Force norm: 0.101793
+count 73 Energy: -12.0973
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5085   -0.2331    5.0436   10.3074   15.5906
+Force norm: 0.169295
+count 74 Energy: -12.0972
+count 75 Energy: -12.0978
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5107   -0.2306    5.0396   10.3113   15.5905
+Force norm: 0.0446395
+count 76 Energy: -12.0979
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5142   -0.2349    5.0418   10.3120   15.5953
+Force norm: 0.0849707
+count 77 Energy: -12.0975
+count 78 Energy: -12.098
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5157   -0.2330    5.0389   10.3147   15.5951
+Force norm: 0.0517058
+count 79 Energy: -12.0979
+count 80 Energy: -12.098
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5157   -0.2346    5.0406   10.3137   15.5961
+Force norm: 0.0309988
+count 81 Energy: -12.098
+count 82 Energy: -12.0981
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5164   -0.2341    5.0396   10.3147   15.5962
+Force norm: 0.0193897
+count 83 Energy: -12.0981
+count 84 Energy: -12.0981
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5166   -0.2348    5.0402   10.3145   15.5967
+Force norm: 0.0122496
+count 85 Energy: -12.0981
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5173   -0.2347    5.0397   10.3152   15.5971
+Force norm: 0.0163488
+count 86 Energy: -12.0981
+count 87 Energy: -12.0981
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5174   -0.2351    5.0401   10.3150   15.5974
+Force norm: 0.00702775
+Total iterations: 88
+79(0, 0, -5.51736)
+79(0, 0, -0.23514)
+79(0, 0, 5.04009)
+79(0, 0, 10.315)
+79(0, 0, 15.5974)

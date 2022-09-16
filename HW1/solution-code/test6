@@ -1,0 +1,734 @@
+Forward fd Force
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+   1.3599e+01   2.4012e+02   2.7827e+02   1.0350e+02   5.1751e+01
+  -5.9862e+05  -7.5599e+06   6.0810e+06  -9.2299e+02   2.0695e+06
+Forward fd Force norm: 9.9384e+06
+Central fd Force
+            0            0            0            0            0
+            0            0            0            0            0
+  -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
+Central fd Force norm: 9.93837e+06
+Analytic Force
+            0            0            0            0            0
+            0            0            0            0            0
+  -5.9844e+05  -7.5568e+06   6.0846e+06   4.2437e+02   2.0701e+06
+Analytic Force norm: 9.93837e+06
+Energy: 2.01857e+06
+
+Start opt with central finite difference force evaluation
+
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.420e+06
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.9910   3.0868   5.0912   7.0000   9.0310
+Force norm: 3.5427e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.127e+06
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.9219   3.0324   4.9814   7.1293   9.1351
+Force norm: 3.77211e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 8.704e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.8811   2.9581   5.0640   7.0826   9.2142
+Force norm: 1.98294e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 7.023e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.7595   2.9781   4.9893   7.1722   9.3010
+Force norm: 2.17187e+06
+Bracketing for line search, finding B point with stepsize 0.15
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.686e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.7250   2.8889   5.0704   7.1557   9.3600
+Force norm: 1.25014e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.597e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.6077   2.9006   4.9861   7.2534   9.4522
+Force norm: 1.37271e+06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.710e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.5706   2.8102   5.0707   7.2323   9.5162
+Force norm: 788125
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.998e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.4476   2.8242   4.9845   7.3322   9.6115
+Force norm: 864914
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.421e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.4095   2.7302   5.0719   7.3112   9.6772
+Force norm: 496991
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.956e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.2825   2.7443   4.9825   7.4148   9.7759
+Force norm: 545453
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.579e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.2430   2.6471   5.0730   7.3929   9.8440
+Force norm: 313384
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.275e+05
+new_point
+        0        0        0        0        0
+        0        0        0        0        0
+   0.1114   2.6617   4.9805   7.5002   9.9462
+Force norm: 343921
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.029e+05
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+    0.0706    2.5611    5.0742    7.4775   10.0166
+Force norm: 197608
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.18
+Bracketing for line search, D point found
+current energy: 8.310e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.0656    2.5762    4.9784    7.5885   10.1224
+Force norm: 216854
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 6.704e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.1078    2.4721    5.0753    7.5651   10.1953
+Force norm: 124602
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.412e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.2487    2.4878    4.9763    7.6799   10.3047
+Force norm: 136730
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.365e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.2924    2.3800    5.0765    7.6557   10.3801
+Force norm: 78567
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.522e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.4381    2.3962    4.9741    7.7745   10.4933
+Force norm: 86207.4
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.839e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.4832    2.2848    5.0778    7.7494   10.5713
+Force norm: 49538.9
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.290e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.6339    2.3015    4.9719    7.8722   10.6882
+Force norm: 54351.3
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.845e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.6805    2.1864    5.0790    7.8463   10.7688
+Force norm: 31235
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.487e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.8361    2.2037    4.9696    7.9732   10.8896
+Force norm: 34265.3
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.197e+04
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -0.8844    2.0847    5.0803    7.9464   10.9729
+Force norm: 19693.6
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 9.640e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.0450    2.1025    4.9674    8.0775   11.0976
+Force norm: 21601
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 7.753e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.0948    1.9798    5.0816    8.0498   11.1836
+Force norm: 12416.2
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.22
+Bracketing for line search, D point found
+current energy: 6.238e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.2605    1.9981    4.9651    8.1850   11.3122
+Force norm: 13616.4
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.011e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.3118    1.8715    5.0829    8.1564   11.4010
+Force norm: 7827.72
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.026e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.4825    1.8904    4.9628    8.2959   11.5334
+Force norm: 8582.4
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.229e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.5354    1.7600    5.0841    8.2664   11.6248
+Force norm: 4934.63
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.590e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.7111    1.7794    4.9606    8.4100   11.7611
+Force norm: 5408.86
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.073e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.7654    1.6452    5.0853    8.3796   11.8552
+Force norm: 3110.59
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.659e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -1.9459    1.6651    4.9585    8.5272   11.9951
+Force norm: 3408.31
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.325e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.0017    1.5274    5.0865    8.4960   12.0918
+Force norm: 1960.61
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.057e+03
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.1867    1.5477    4.9564    8.6475   12.2351
+Force norm: 2147.31
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 8.408e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.2438    1.4066    5.0876    8.6154   12.3342
+Force norm: 1235.63
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 6.684e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.4330    1.4273    4.9546    8.7704   12.4807
+Force norm: 1352.53
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.291e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.4913    1.2832    5.0885    8.7376   12.5820
+Force norm: 778.621
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.183e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.6841    1.3041    4.9531    8.8958   12.7311
+Force norm: 851.676
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.289e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.7433    1.1575    5.0892    8.8623   12.8343
+Force norm: 490.552
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.26
+Bracketing for line search, D point found
+current energy: 2.580e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.9389    1.1786    4.9519    9.0231   12.9854
+Force norm: 536.091
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.009e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -2.9989    1.0300    5.0897    8.9890   13.0902
+Force norm: 308.991
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.558e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.1963    1.0511    4.9512    9.1516   13.2424
+Force norm: 337.283
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.195e+02
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.2566    0.9015    5.0899    9.1171   13.3481
+Force norm: 194.574
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 9.102e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.4544    0.9224    4.9511    9.2805   13.5004
+Force norm: 212.074
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 6.817e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.5145    0.7729    5.0896    9.2457   13.6062
+Force norm: 122.482
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 5.031e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.7109    0.7933    4.9520    9.4086   13.7570
+Force norm: 133.242
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 3.606e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.7703    0.6453    5.0888    9.3740   13.8622
+Force norm: 77.068
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 2.500e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -3.9630    0.6649    4.9538    9.5346   14.0096
+Force norm: 83.6308
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.622e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.0208    0.5204    5.0873    9.5003   14.1128
+Force norm: 48.4675
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 9.474e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.2070    0.5388    4.9571    9.6566   14.2546
+Force norm: 52.4276
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 4.151e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.2623    0.3999    5.0850    9.6232   14.3543
+Force norm: 30.4624
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: 1.166e-01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.4387    0.4166    4.9619    9.7724   14.4879
+Force norm: 32.8182
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -3.041e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.4904    0.2859    5.0818    9.7405   14.5822
+Force norm: 19.1334
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -5.396e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.6534    0.3006    4.9684    9.8798   14.7046
+Force norm: 20.5093
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -7.218e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.7003    0.1810    5.0776    9.8499   14.7918
+Force norm: 12.0101
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -8.551e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.8461    0.1933    4.9766    9.9762   14.9000
+Force norm: 12.7957
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -9.567e+00
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -4.8871    0.0874    5.0726    9.9492   14.9780
+Force norm: 7.53542
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.029e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.0126    0.0970    4.9861   10.0597   15.0698
+Force norm: 7.97303
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.084e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.0469    0.0070    5.0670   10.0361   15.1368
+Force norm: 4.72778
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.122e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1502    0.0139    4.9964   10.1288   15.2111
+Force norm: 4.96607
+Bracketing for line search, finding B point with stepsize 0.13
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.150e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.1775   -0.0591    5.0613   10.1091   15.2662
+Force norm: 2.96813
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.169e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.2587   -0.0545    5.0065   10.1834   15.3233
+Force norm: 3.09615
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.182e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.2793   -0.1110    5.0560   10.1678   15.3665
+Force norm: 1.86607
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.191e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3401   -0.1082    5.0154   10.2247   15.4083
+Force norm: 1.93498
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.198e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3550   -0.1500    5.0515   10.2128   15.4406
+Force norm: 1.17566
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.202e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.3987   -0.1484    5.0227   10.2544   15.4700
+Force norm: 1.21344
+Bracketing for line search, finding B point with stepsize 0.06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.204e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4091   -0.1780    5.0480   10.2458   15.4932
+Force norm: 0.742468
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.206e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4394   -0.1772    5.0282   10.2752   15.5132
+Force norm: 0.763805
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.208e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4464   -0.1976    5.0454   10.2692   15.5293
+Force norm: 0.469986
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.208e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4669   -0.1971    5.0322   10.2892   15.5426
+Force norm: 0.482423
+Bracketing for line search, finding B point with stepsize 0.03
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4715   -0.2108    5.0436   10.2852   15.5535
+Force norm: 0.298093
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4851   -0.2106    5.0349   10.2986   15.5622
+Force norm: 0.305544
+Bracketing for line search, finding B point with stepsize 0.02
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.209e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4881   -0.2196    5.0424   10.2959   15.5695
+Force norm: 0.189359
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4970   -0.2194    5.0367   10.3047   15.5751
+Force norm: 0.193915
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.4989   -0.2253    5.0415   10.3029   15.5798
+Force norm: 0.120422
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5047   -0.2253    5.0379   10.3087   15.5835
+Force norm: 0.123248
+Bracketing for line search, finding B point with stepsize 0.01
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5060   -0.2291    5.0410   10.3075   15.5865
+Force norm: 0.0766409
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5097   -0.2290    5.0386   10.3112   15.5889
+Force norm: 0.078411
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5105   -0.2315    5.0406   10.3105   15.5909
+Force norm: 0.0488027
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5129   -0.2314    5.0391   10.3128   15.5924
+Force norm: 0.0499182
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5134   -0.2330    5.0404   10.3124   15.5936
+Force norm: 0.0310868
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5149   -0.2330    5.0394   10.3139   15.5946
+Force norm: 0.0317932
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5152   -0.2340    5.0403   10.3136   15.5954
+Force norm: 0.0198063
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5162   -0.2340    5.0396   10.3146   15.5960
+Force norm: 0.0202548
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5164   -0.2346    5.0402   10.3144   15.5965
+Force norm: 0.0126213
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5171   -0.2346    5.0398   10.3150   15.5969
+Force norm: 0.0129065
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+         0         0         0         0         0
+         0         0         0         0         0
+   -5.5172   -0.2350    5.0401   10.3149   15.5972
+Force norm: 0.00804363
+Total iterations: 87
+Final energy: -1.210e+01
+79(0, 0, -5.51718)
+79(0, 0, -0.235041)
+79(0, 0, 5.04011)
+79(0, 0, 10.3149)
+79(0, 0, 15.5972)

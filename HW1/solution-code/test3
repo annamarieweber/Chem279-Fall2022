@@ -1,0 +1,302 @@
+Forward fd Force
+  -8.0639e-01   8.9778e+02  -8.0639e-01  -8.9651e+02
+  -2.8037e+00   1.0240e-02   2.8015e+00   1.2508e-02
+   2.8405e-05   1.2551e-02   2.8405e-05   1.2449e-02
+Forward fd Force norm: 1268.76
+Central fd Force
+  -8.0643e-01   8.9795e+02  -8.0643e-01  -8.9634e+02
+  -2.8026e+00            0   2.8026e+00            0
+            0            0            0            0
+Central fd Force norm: 1268.76
+Analytic Force
+  -8.0643e-01   8.9795e+02  -8.0643e-01  -8.9634e+02
+  -2.8026e+00            0   2.8026e+00            0
+            0            0            0            0
+Analytic Force norm: 1268.76
+Energy: 230.82
+
+Start opt with central finite difference force evaluation
+
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.36
+Bracketing for line search, finding D point with stepsize 0.43
+Bracketing for line search, finding D point with stepsize 0.52
+Bracketing for line search, finding D point with stepsize 0.62
+Bracketing for line search, finding D point with stepsize 0.75
+Bracketing for line search, finding D point with stepsize 0.90
+Bracketing for line search, finding D point with stepsize 1.07
+Bracketing for line search, finding D point with stepsize 1.29
+Bracketing for line search, finding D point with stepsize 1.55
+Bracketing for line search, finding D point with stepsize 1.86
+Bracketing for line search, finding D point with stepsize 2.23
+Bracketing for line search, finding D point with stepsize 2.67
+Bracketing for line search, finding D point with stepsize 3.21
+Bracketing for line search, finding D point with stepsize 3.85
+Bracketing for line search, finding D point with stepsize 4.62
+Bracketing for line search, finding D point with stepsize 5.55
+Bracketing for line search, finding D point with stepsize 6.66
+Bracketing for line search, finding D point with stepsize 7.99
+Bracketing for line search, finding D point with stepsize 9.58
+Bracketing for line search, finding D point with stepsize 11.50
+Bracketing for line search, finding D point with stepsize 13.80
+Bracketing for line search, finding D point with stepsize 16.56
+Bracketing for line search, finding D point with stepsize 19.87
+Bracketing for line search, finding D point with stepsize 23.85
+Bracketing for line search, finding D point with stepsize 28.62
+Bracketing for line search, finding D point with stepsize 34.34
+Bracketing for line search, finding D point with stepsize 41.21
+Bracketing for line search, finding D point with stepsize 49.45
+Bracketing for line search, finding D point with stepsize 59.34
+Bracketing for line search, finding D point with stepsize 71.21
+Bracketing for line search, finding D point with stepsize 85.46
+Bracketing for line search, finding D point with stepsize 102.55
+Bracketing for line search, finding D point with stepsize 123.06
+Bracketing for line search, finding D point with stepsize 147.67
+Bracketing for line search, finding D point with stepsize 177.20
+Bracketing for line search, finding D point with stepsize 212.64
+Bracketing for line search, finding D point with stepsize 255.17
+Bracketing for line search, finding D point with stepsize 306.20
+Bracketing for line search, finding D point with stepsize 367.44
+Bracketing for line search, finding D point with stepsize 440.93
+Bracketing for line search, finding D point with stepsize 529.12
+Bracketing for line search, finding D point with stepsize 634.94
+Bracketing for line search, finding D point with stepsize 761.93
+Bracketing for line search, finding D point with stepsize 914.32
+Bracketing for line search, finding D point with stepsize 1097.18
+Bracketing for line search, finding D point with stepsize 1316.61
+Bracketing for line search, finding D point with stepsize 1579.94
+Bracketing for line search, finding D point with stepsize 1895.92
+Bracketing for line search, finding D point with stepsize 2275.11
+Bracketing for line search, finding D point with stepsize 2730.13
+Bracketing for line search, finding D point with stepsize 3276.16
+Bracketing for line search, finding D point with stepsize 3931.39
+Bracketing for line search, finding D point with stepsize 4717.67
+Bracketing for line search, finding D point with stepsize 5661.20
+Bracketing for line search, finding D point with stepsize 6793.44
+Bracketing for line search, finding D point with stepsize 8152.13
+Bracketing for line search, finding D point with stepsize 9782.55
+Bracketing for line search, finding D point with stepsize 11739.07
+Bracketing for line search, finding D point with stepsize 14086.88
+Bracketing for line search, finding D point with stepsize 16904.25
+Bracketing for line search, finding D point with stepsize 20285.11
+Bracketing for line search, finding D point with stepsize 24342.13
+Bracketing for line search, finding D point with stepsize 29210.55
+Bracketing for line search, finding D point with stepsize 35052.66
+Bracketing for line search, finding D point with stepsize 42063.19
+Bracketing for line search, finding D point with stepsize 50475.83
+Bracketing for line search, finding D point with stepsize 60571.00
+Bracketing for line search, finding D point with stepsize 72685.20
+Bracketing for line search, finding D point with stepsize 87222.24
+Bracketing for line search, finding D point with stepsize 104666.69
+Bracketing for line search, finding D point with stepsize 125600.02
+Bracketing for line search, finding D point with stepsize 150720.03
+Bracketing for line search, finding D point with stepsize 180864.04
+Bracketing for line search, finding D point with stepsize 217036.84
+Bracketing for line search, finding D point with stepsize 260444.21
+Bracketing for line search, finding D point with stepsize 312533.05
+Bracketing for line search, finding D point with stepsize 375039.66
+Bracketing for line search, finding D point with stepsize 450047.60
+Bracketing for line search, finding D point with stepsize 540057.12
+Bracketing for line search, finding D point with stepsize 648068.54
+Bracketing for line search, finding D point with stepsize 777682.25
+Bracketing for line search, finding D point with stepsize 933218.70
+Bracketing for line search, finding D point with stepsize 1119862.43
+Bracketing for line search, finding D point with stepsize 1343834.92
+Bracketing for line search, finding D point with stepsize 1612601.91
+Bracketing for line search, finding D point with stepsize 1935122.29
+Bracketing for line search, finding D point with stepsize 2322146.74
+Bracketing for line search, finding D point with stepsize 2786576.09
+Bracketing for line search, finding D point with stepsize 3343891.31
+Bracketing for line search, finding D point with stepsize 4012669.57
+Bracketing for line search, finding D point with stepsize 4815203.49
+Bracketing for line search, finding D point with stepsize 5778244.19
+Bracketing for line search, finding D point with stepsize 6933893.03
+Bracketing for line search, finding D point with stepsize 8320671.63
+Bracketing for line search, finding D point with stepsize 9984805.96
+Bracketing for line search, finding D point with stepsize 11981767.15
+Bracketing for line search, finding D point with stepsize 14378120.58
+Bracketing for line search, finding D point with stepsize 17253744.69
+Bracketing for line search, finding D point with stepsize 20704493.63
+Bracketing for line search, finding D point with stepsize 24845392.36
+Bracketing for line search, finding D point with stepsize 29814470.83
+Finding D point failed, please adjust search_stepsize
+Bracketing failed, use normal steepest descend instead
+current energy: 3.955e+01
+new_point
+  -0.0002   0.2123  -0.0002  -3.8119
+  -5.0007        0   5.0007        0
+        0        0        0        0
+Force norm: 266.246
+Bracketing for line search, B point found
+Bracketing for line search, finding D point with stepsize 0.36
+Bracketing for line search, finding D point with stepsize 0.43
+Bracketing for line search, finding D point with stepsize 0.52
+Bracketing for line search, finding D point with stepsize 0.62
+Bracketing for line search, finding D point with stepsize 0.75
+Bracketing for line search, finding D point with stepsize 0.90
+Bracketing for line search, finding D point with stepsize 1.07
+Bracketing for line search, finding D point with stepsize 1.29
+Bracketing for line search, finding D point with stepsize 1.55
+Bracketing for line search, finding D point with stepsize 1.86
+Bracketing for line search, finding D point with stepsize 2.23
+Bracketing for line search, finding D point with stepsize 2.67
+Bracketing for line search, finding D point with stepsize 3.21
+Bracketing for line search, finding D point with stepsize 3.85
+Bracketing for line search, finding D point with stepsize 4.62
+Bracketing for line search, finding D point with stepsize 5.55
+Bracketing for line search, finding D point with stepsize 6.66
+Bracketing for line search, finding D point with stepsize 7.99
+Bracketing for line search, D point found
+current energy: -1.107e+01
+new_point
+  -0.0033   0.8352  -0.0033  -4.4285
+  -5.0098        0   5.0098        0
+        0        0        0        0
+Force norm: 3.10427
+Bracketing for line search, finding B point with stepsize 3.99
+Bracketing for line search, finding B point with stepsize 2.00
+Bracketing for line search, finding B point with stepsize 1.00
+Bracketing for line search, finding B point with stepsize 0.50
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.153e+01
+new_point
+  -0.1162   0.9444  -0.1162  -4.3119
+  -5.1821        0   5.1821        0
+        0        0        0        0
+Force norm: 1.78583
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.210e+01
+new_point
+  -0.3132   1.0308  -0.3132  -4.0044
+  -4.9215        0   4.9215        0
+        0        0        0        0
+Force norm: 5.17661
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.264e+01
+new_point
+  -0.3781   1.2353  -0.3781  -4.0792
+  -4.9603        0   4.9603        0
+        0        0        0        0
+Force norm: 2.44559
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.336e+01
+new_point
+  -0.5732   1.2787  -0.5732  -3.7323
+  -4.8542        0   4.8542        0
+        0        0        0        0
+Force norm: 5.17481
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.385e+01
+new_point
+  -0.6227   1.4720  -0.6227  -3.8266
+  -4.8308        0   4.8308        0
+        0        0        0        0
+Force norm: 2.69223
+Bracketing for line search, finding B point with stepsize 0.25
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.441e+01
+new_point
+  -0.7406   1.4840  -0.7406  -3.6028
+  -4.6794        0   4.6794        0
+        0        0        0        0
+Force norm: 3.72148
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.470e+01
+new_point
+  -0.7874   1.6388  -0.7874  -3.6641
+  -4.6766        0   4.6766        0
+        0        0        0        0
+Force norm: 1.89567
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.488e+01
+new_point
+  -0.8440   1.6445  -0.8440  -3.5564
+  -4.5990        0   4.5990        0
+        0        0        0        0
+Force norm: 1.50967
+Bracketing for line search, finding B point with stepsize 0.12
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.494e+01
+new_point
+  -0.8675   1.7174  -0.8675  -3.5823
+  -4.6008        0   4.6008        0
+        0        0        0        0
+Force norm: 0.740001
+Bracketing for line search, finding B point with stepsize 0.06
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.496e+01
+new_point
+  -0.8845   1.7192  -0.8845  -3.5502
+  -4.5746        0   4.5746        0
+        0        0        0        0
+Force norm: 0.428559
+Bracketing for line search, finding B point with stepsize 0.03
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.497e+01
+new_point
+  -0.8920   1.7420  -0.8920  -3.5580
+  -4.5755        0   4.5755        0
+        0        0        0        0
+Force norm: 0.207156
+Bracketing for line search, finding B point with stepsize 0.02
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.497e+01
+new_point
+  -0.8962   1.7425  -0.8962  -3.5500
+  -4.5683        0   4.5683        0
+        0        0        0        0
+Force norm: 0.108077
+Bracketing for line search, finding B point with stepsize 0.01
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.497e+01
+new_point
+  -0.8981   1.7484  -0.8981  -3.5522
+  -4.5684        0   4.5684        0
+        0        0        0        0
+Force norm: 0.0521771
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.497e+01
+new_point
+  -0.8991   1.7485  -0.8991  -3.5503
+  -4.5666        0   4.5666        0
+        0        0        0        0
+Force norm: 0.0265432
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.497e+01
+new_point
+  -0.8996   1.7500  -0.8996  -3.5509
+  -4.5666        0   4.5666        0
+        0        0        0        0
+Force norm: 0.0128531
+Bracketing for line search, finding B point with stepsize 0.00
+Bracketing for line search, B point found
+Bracketing for line search, D point found
+current energy: -1.497e+01
+new_point
+  -0.8998   1.7500  -0.8998  -3.5504
+  -4.5661        0   4.5661        0
+        0        0        0        0
+Force norm: 0.00651782
+Total iterations: 18
+Final energy: -1.497e+01
+79(-0.899797, -4.56612, 0)
+79(1.75002, 0, 0)
+79(-0.899797, 4.56612, 0)
+79(-3.55043, 0, 0)
