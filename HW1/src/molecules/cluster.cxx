@@ -11,18 +11,6 @@ using arma::rowvec;
 using arma::vec;
 using std::string;
 
-// struct lj {
-//   double operator()( mat x ) const {
-//   //lj equation applied to matrix here
-//   }
-// };
-
-// struct lj_prime {
-//   double operator()(mat x) const{
-//     //partial derivative of lj equation
-//   }
-// }
-
 // steepest_descent(lj fn,lj_prime gradient,double l,mat x,int count, double threshold){
 //     double x1 = x - l*gradient(x);
 //     while(abs(x1[0] - x[0]) < threshold){

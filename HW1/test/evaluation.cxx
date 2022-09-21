@@ -18,9 +18,6 @@ double calcTruncationError(Cluster c, double h, int method)
   {
     e = norm(c.calcAnalyticalForce() - c.calcForwardFdForce(h));
   }
-  std::cout << "e val" << std::endl;
-  std::cout << e << std::endl;
-  std::cout << log(e) << std::endl;
   return log(e);
 }
 

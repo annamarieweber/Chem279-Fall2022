@@ -38,7 +38,7 @@ all: $(EXECUTABLES)
 run:
 	make all
 	echo Running Program ....
-	$(BIN_DIR)/main_program ../../sample-input.txt | $(OUTPUT_DIR)/main_program.out
+	$(BIN_DIR)/main_program ../../sample-input.txt | tee $(OUTPUT_DIR)/main_program.out
 
 
 cleanall:
