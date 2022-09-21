@@ -7,14 +7,15 @@
 
 # This is the main build makefile
 
-TEST_DIR = tests/
+TEST_DIR = test/
 ATOMS_DIR = src/atoms
 MOL_DIR = src/molecules
 EXCEPTIONS = src/exceptions
 MAIN_DIR = src/main
 UTIL_DIR = util/
 
-all:
+all:	
+	cd $(TEST_DIR); make all
 	cd $(EXCEPTIONS); make all
 	cd $(UTIL_DIR); make all
 	cd $(MOL_DIR); make all

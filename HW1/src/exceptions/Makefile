@@ -29,6 +29,6 @@ baseexception.o: $(INC_DIR)/baseexception.h
 all: $(EXP_OBJS)
 
 cleanall: 
-	cd $(LIB_DIR); rm $(ATOM_OBJS)
+	cd $(LIB_DIR); rm $(EXP_OBJS)
 
 
