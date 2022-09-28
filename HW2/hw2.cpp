@@ -221,19 +221,10 @@ class Problem1TestCase{
 
 int main()
 {
-  std::cout << "Problem 1: " << std::endl;
-  double l_a = 0.0;
-  double l_b = 0.0;
-  double x_a = 0.0;
-  double x_b = 0.0;
-  double alpha = 1.0;
-  double beta = 1.0;
-  Gaussian g_a(x_a, l_a, alpha);
-  Gaussian g_b(x_b, l_b, beta);
-  FunctionProduct<Gaussian,Gaussian> fn1(g_a, g_b);
-  Integral <FunctionProduct<Gaussian,Gaussian>> overlap_integral1(fn1);
 
-  std::cout << "using a = -5 b = 5 and n = 10000 " << overlap_integral1(-5,5,10000) <<std::endl;
+  // Problem One Tests
+  std::cout << "Problem 1: " << std::endl;
+  std::cout << "using a = -5 b = 5 and n = 10000 " <<std::endl;
   Problem1TestCase case1(1,0.0,0.0,0.0,0.0,1.0,1.0,1.25331413731550012);
   Problem1TestCase case2(2,0.0,1.0,0.0,0.0,1.0,1.0,0.00000000000000000);
   Problem1TestCase case3(3,0.0,0.0,0.0,1.0,1.0,1.0,7.60173450533140338e-01);
@@ -242,4 +233,9 @@ int main()
   case2(-5,5,10000);
   case3(-5,5,10000);
   case4(-5,5,10000);
+
+  // Problem 2 Tests
+  std::cout << "Problem 2: " << std::endl;
+
+
 }
