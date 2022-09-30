@@ -47,7 +47,7 @@ Cluster readfile(string &filename) {
 		double z_coord;
 		//read first line
 		int expectedAtoms;
-		infile >> expectedAtoms;;
+		infile >> expectedAtoms;
 		int atomsCounted = 0;
 		Cluster cluster(expectedAtoms);
 
