@@ -355,6 +355,8 @@ class ShellOverlapIntegral{
     }
   
   public:
+    ShellOverlapIntegral(){}
+    
     ShellOverlapIntegral(Shell s_a, Shell s_b){
       _s_a = s_a;
       _s_b = s_b;
@@ -374,6 +376,43 @@ class ShellOverlapIntegral{
       return result;
     }
 };
+
+class Problem2TestCase{
+  private:
+    ShellOverlapIntegral _test_case;
+    mat _expected_result;
+    int _id;
+
+  public:
+    Problem2TestCase(int id, ShellOverlapIntegral s, mat expected_result){
+      _id = id;
+      _expected_result = expected_result;
+      _test_case = s;
+    }
+
+    Problem2TestCase(int id, mat l_a, mat l_b, vec r_a, vec r_b, double alpha, double beta, mat expected_result){
+      _id = id;
+      _expected_result = expected_result;
+      Shell s_a(r_a, l_a, alpha);
+      Shell s_b(r_b, l_b, beta);
+      ShellOverlapIntegral test_case(s_a, s_b);
+      _test_case = test_case;
+    }
+
+    void operator()(){
+      mat result = _test_case(); 
+      std::cout << "\033[0;44m Test" << _id << " \33[0m " <<  std::endl;
+      std::cout << result << std::endl;
+      std::cout << "status: ";
+      if(all(vectorise(abs(result - _expected_result) < 0.0001f))){
+	std::cout << "\033[32m PASSED" << "\033[0m" << std::endl;
+      }
+      else{
+	std::cout << "\033[31m FAILED" << "\033[0m" << std::endl;
+      }
+    }
+};
+
 /**
  * @brief reads files with shell data
  *
@@ -386,7 +425,7 @@ class ShellOverlapIntegral{
  *         the number of shells described by the file must match the specified number of shells in the first line
  * 
  **/
-void read_shells(string &filename) {
+void read_shells(string &filename, ShellOverlapIntegral &s) {
   std::ifstream infile(filename);
   infile.imbue(std::locale(std::cin.getloc(), new bar_is_space));
   if (infile.is_open()) {
@@ -411,7 +450,7 @@ void read_shells(string &filename) {
     Shell s_b(r_b,l_b,beta);
 
     ShellOverlapIntegral overlap(s_a,s_b);
-    std::cout << overlap() << std::endl;
+    s = overlap;
     infile.close();
   } 
   else {
@@ -436,7 +475,29 @@ int main()
 
   // Problem 2 Tests
   std::cout << "Problem 2: " << std::endl;
+  std::cout << "Comparing to numerical outputs: " << std::endl;
+  mat l_zero("0.0");
+  mat l_one("1.0");
+  vec r_zero("0.0");
+  vec r_one("1.0");
+  mat expected1("1.25331413731550012");
+  mat expected2("0.00000000000000000");
+  mat expected3("7.60173450533140338e-01");
+  mat expected4("-3.80086725266570169e-01");
+  Problem2TestCase p2case1(1,l_zero,l_zero,r_zero,r_zero,1.0,1.0,expected1);
+  Problem2TestCase p2case2(2,l_zero,l_one,r_zero,r_zero,1.0,1.0,expected2);
+  Problem2TestCase p2case3(3,l_zero,l_zero,r_zero,r_one,1.0,1.0,expected3);
+  Problem2TestCase p2case4(4,l_zero,l_one,r_zero,r_one,1.0,1.0,expected4);
+  p2case1();
+  p2case2();
+  p2case3();
+  p2case4();
+  std::cout << "comparing with expected output from sample:" << std::endl;
   std::string filename = "shelltest.in";
-  read_shells(filename);
+  ShellOverlapIntegral s;
+  read_shells(filename, s);
+  mat expected5("0 -0.0245 -0.0490;-0.0245 0 -0.0490;-0.0490 -0.0490 -0.0735");
+  Problem2TestCase p2case5(5,s,expected5);
+  p2case5();
   return 0;
 }
