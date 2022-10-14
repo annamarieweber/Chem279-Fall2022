@@ -1,0 +1,18 @@
+1. The input files are the *.txt files, the first line contains number of
+atoms and molecular charge, following lines are "E X Y Z" format, where E
+is atomic symbol and XYZ are the coordinates.
+
+2. The reference results are the *.out files. For H2, every intermediate
+matrix and the final energy has been printed out for you to debug. For 
+C2H2, only the AO overlap matrix and final energy has been printed out.
+
+3. The exponents and contraction coefficients provided at the bottom of
+page 2 may be a bit confusing. For the first matrix of H atom, the first
+column is the exponents and the second column is the contraction coefficients.
+In other words, the 1s orbital of H is the summation of 3 Gaussian functions
+with exponents in column 1 and linear combination coefficients in column 2
+respectively. For the second matrix of C atom, the first column is the exponents
+which is identical for both 2s and 2p orbitals. The second column is the
+contraction coefficients of the 2s orbital, and the third column is the
+contraction coefficients of the 2p orbitals (same for the 2px, 2py, 2pz orbitals).
+
