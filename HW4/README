@@ -1,2 +1,16 @@
 The basis set info is stored in the Atom_STO3G.txt files,
 sameple outputs are in the .out files.
+
+gamma: the two-center 2-electron repulsion integral of Eq.(3.1) and
+Eq.(3.3).
+Overlap: AO overlap matrix.
+p: number of alpha electrons.
+q: number of beta  electrons.
+H_core: the part of fock matrices that does not depend on the density
+matrices, i.e., Eq.(1.4) and Eq.(1.5) excluding the part with P.
+Ga & Gb: the part of fock matrices that depends on the density matrices.
+Fa & Fb: fock matrices of electron alpha & beta.
+Ca & Cb: MO coefficient matrices of electron alpha & beta.
+Pa & Pb: density matrices of electron & beta.
+P_t: total density matrix, i.e. Pa+Pb.
+Ea & Eb: eigenvalues of Fa & Fb.
