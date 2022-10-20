@@ -1,0 +1,50 @@
+gamma
+   21.0781
+Overlap
+   1.0000
+ p =  1 q =  0
+H_core
+  -17.7151
+Iteration: 0
+Fa
+  -17.7151
+Fb
+  -17.7151
+after solving eigen equation: 0
+Ca
+   1.0000
+Cb
+   1.0000
+ p =  1 q =  0
+Pa_new
+   1.0000
+Pb_new
+        0
+P_t
+   1.0000
+Ga
+        0
+Gb
+   21.0781
+Iteration: 1
+Fa
+  -17.7151
+Fb
+   3.3631
+after solving eigen equation: 1
+Ca
+   1.0000
+Cb
+   1.0000
+ p =  1 q =  0
+Ea
+  -17.7151
+Eb
+   3.3631
+Ca
+   1.0000
+Cb
+   1.0000
+Nuclear Repulsion Energy is 0 eV.
+Electronic Energy is -17.7151 eV.
+The molecule in file H.txt has energy -17.715055
