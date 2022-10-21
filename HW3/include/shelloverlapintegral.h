@@ -8,25 +8,25 @@ private:
     Shell _s_a;
     Shell _s_b;
 
-    double alphas_product(int k);
+    vec alphas_product();
 
-    double alphas_sum(int k);
+    vec alphas_sum();
 
     double dim_dist_sqr(int dim);
 
-    double exponential_prefactor(int dim, int k);
+    double exponential_prefactor(int dim);
 
-    double root_term(int k);
+    vec root_term();
 
-    double overlap_summation(double x_p, int l_pair_a, int l_pair_b, int dim, int k);
+    double overlap_summation(double x_p, int l_pair_a, int l_pair_b, int dim);
 
-    double product_center(int dim, int k);
+    double product_center(int dim);
 
 public:
     ShellOverlapIntegral();
 
     ShellOverlapIntegral(Shell s_a, Shell s_b);
 
-    mat operator()(int k);
+    mat operator()();
 };
 #endif
