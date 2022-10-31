@@ -2,6 +2,7 @@
 #include "combinatorics.h"
 #include <armadillo>
 
+using arma::cube;
 using arma::mat;
 using arma::vec;
 
@@ -15,14 +16,14 @@ vec ShellOverlapIntegral::alphas_sum()
     return _s_a.alpha() + _s_b.alpha();
 }
 
-double ShellOverlapIntegral::dim_dist_sqr(int dim)
+vec ShellOverlapIntegral::dim_dist_sqr()
 {
-    return pow(_s_a.r_a()(dim) - _s_b.r_a()(dim), 2);
+    return pow(_s_a.r_a() - _s_b.r_a(), 2);
 }
 
-double ShellOverlapIntegral::exponential_prefactor(int dim)
+vec ShellOverlapIntegral::exponential_prefactor()
 {
-    return exp(-1.0 * ((alphas_product()(dim) * dim_dist_sqr(dim)) / alphas_sum()(dim)));
+    return exp(-1.0 * ((alphas_product() % dim_dist_sqr()) / alphas_sum()));
 }
 
 vec ShellOverlapIntegral::root_term()
@@ -30,9 +31,9 @@ vec ShellOverlapIntegral::root_term()
     return sqrt(M_PI / alphas_sum());
 }
 
-double ShellOverlapIntegral::overlap_summation(double x_p, int l_pair_a, int l_pair_b, int dim)
+vec ShellOverlapIntegral::overlap_summation(vec x_p, int l_pair_a, int l_pair_b)
 {
-    double summation = 0.0;
+    vec summation(x_p.n_elem);
     for (int i = 0; i <= l_pair_a; i++)
     {
         for (int j = 0; j <= l_pair_b; j++)
@@ -41,10 +42,10 @@ double ShellOverlapIntegral::overlap_summation(double x_p, int l_pair_a, int l_p
             {
                 double binomial_term = calc_binomial(l_pair_a, i) * calc_binomial(l_pair_b, j);
                 double factorial_term = factorial(i + j - 1, 2);
-                double a_term = pow(x_p - _s_a.r_a()(dim), l_pair_a - i);
-                double b_term = pow(x_p - _s_b.r_a()(dim), l_pair_b - j);
-                double denominator = pow(2.0 * alphas_sum()(dim), (i + j) / 2.0);
-                double step = (binomial_term * ((factorial_term * a_term * b_term) / denominator));
+                vec a_term = pow(x_p - _s_a.r_a(), l_pair_a - i);
+                vec b_term = pow(x_p - _s_b.r_a(), l_pair_b - j);
+                vec denominator = pow(2.0 * alphas_sum(), (i + j) / 2.0);
+                vec step = (binomial_term * ((factorial_term * a_term % b_term) / denominator));
                 summation += step;
             }
         }
@@ -52,9 +53,9 @@ double ShellOverlapIntegral::overlap_summation(double x_p, int l_pair_a, int l_p
     return summation;
 }
 
-double ShellOverlapIntegral::product_center(int dim)
+vec ShellOverlapIntegral::product_center()
 {
-    return (_s_a.r_a()(dim) * _s_a.alpha()(dim) + _s_b.r_a()(dim) * _s_b.alpha()(dim)) / (alphas_sum()(dim));
+    return (_s_a.r_a() % _s_a.alpha() + _s_b.r_a() % _s_b.alpha()) / (alphas_sum());
 }
 
 ShellOverlapIntegral::ShellOverlapIntegral() {}
@@ -67,18 +68,35 @@ ShellOverlapIntegral::ShellOverlapIntegral(Shell s_a, Shell s_b)
 
 mat ShellOverlapIntegral::operator()()
 {
-    mat result(_s_a.l_a().n_rows, _s_b.l_a().n_rows, arma::fill::ones);
-    for (int i = 0; i < _s_a.r_a().n_elem; i++)
+    vec x_p = product_center();
+    mat nlm(x_p.n_elem, _s_a.num_quantum_arrangements() * _s_b.num_quantum_arrangements(), arma::fill::ones);
+    for (int i = 0; i < product_center().n_elem; i++)
     {
-        double x_p = product_center(i);
-        for (int k = 0; k < _s_a.l_a().n_rows; k++)
+        int elem = 0;
+        for (int k = 0; k < _s_a.num_quantum_arrangements(); k++)
         {
-            for (int l = 0; l < _s_b.l_a().n_rows; l++)
+            for (int l = 0; l < _s_b.num_quantum_arrangements(); l++)
             {
-                double z = exponential_prefactor(i) * root_term()(i) * overlap_summation(x_p, _s_a.l_a()(k, i), _s_b.l_a()(l, i), i);
-                result(k, l) *= z;
+                vec z = exponential_prefactor() % root_term() % overlap_summation(x_p, _s_a.l_a(k)(i), _s_b.l_a(l)(i));
+                // std::cout << "z at " << k << ", " << l << ": " << z << std::endl;
+                nlm.col(elem) %= z;
+                elem++;
             }
         }
     }
-    return result;
+
+    return nlm;
+}
+
+mat ShellOverlapIntegral::overlap(int k, int l)
+{
+    vec x_p = product_center();
+    mat z(x_p.n_elem, _s_a.num_quantum_arrangements() * _s_b.num_quantum_arrangements(), arma::fill::ones);
+
+    for (int i = 0; i < product_center().n_elem; i++)
+    {
+        z.col(i) = exponential_prefactor() % root_term() % overlap_summation(x_p, _s_a.l_a(k)(i), _s_b.l_a(l)(i));
+    }
+
+    return z;
 }

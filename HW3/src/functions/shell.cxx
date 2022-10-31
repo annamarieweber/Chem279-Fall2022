@@ -42,6 +42,16 @@ Shell::Shell(int atomicNum, vec r_a, int l)
     _alpha = coeffs.col(0);
 };
 
+Shell::Shell(int atomicNum, vec r_a, vec d_k, vec alpha, rowvec l)
+{
+    _r_a = r_a;
+
+    mat lmat(l);
+    _l_a = lmat;
+    _d_k = d_k;
+    _alpha = alpha;
+};
+
 void Shell::printShellMatrix()
 {
     std::cout << "r_a: " << std::endl;
@@ -70,9 +80,14 @@ vec Shell::r_a()
     return _r_a;
 }
 
-mat Shell::l_a()
+int Shell::num_quantum_arrangements()
 {
-    return _l_a;
+    return _l_a.n_rows;
+}
+
+vec Shell::l_a(int i)
+{
+    return _l_a.row(i).t();
 }
 
 vec Shell::d_k()
