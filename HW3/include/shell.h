@@ -5,6 +5,7 @@
 #include <cmath>
 #include <stdio.h>
 using arma::mat;
+using arma::rowvec;
 using arma::vec;
 using std::string;
 
@@ -22,13 +23,19 @@ public:
 
     Shell(int atomicNum, vec r_a, int l);
 
+    Shell(int atomicNum, vec r_a, vec d_k, vec alpha, rowvec l);
+
     mat operator()(vec r);
 
     vec r_a();
 
-    mat l_a();
+    vec l_a(int i);
+
+    int num_quantum_arrangements();
 
     vec alpha();
+
+    mat alphaMat();
 
     vec d_k();
 

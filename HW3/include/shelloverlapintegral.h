@@ -2,6 +2,9 @@
 #define SHELL_OVERLAP_INTEGRAL
 #include "shell.h"
 
+using arma::cube;
+using std::vector;
+
 class ShellOverlapIntegral
 {
 private:
@@ -12,15 +15,15 @@ private:
 
     vec alphas_sum();
 
-    double dim_dist_sqr(int dim);
+    vec dim_dist_sqr();
 
-    double exponential_prefactor(int dim);
+    vec exponential_prefactor();
 
     vec root_term();
 
-    double overlap_summation(double x_p, int l_pair_a, int l_pair_b, int dim);
+    vec overlap_summation(vec x_p, int l_pair_a, int l_pair_b);
 
-    double product_center(int dim);
+    vec product_center();
 
 public:
     ShellOverlapIntegral();

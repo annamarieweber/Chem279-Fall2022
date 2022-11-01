@@ -15,6 +15,7 @@ private:
   mat atomMatrix;
   vec epsilons;
   vec sigmas;
+  int K;
 
 public:
   Cluster();
@@ -47,10 +48,33 @@ public:
    */
   int countElectronPairs();
 
-  void printBasisFuncs();
+  /**
+   * @brief Returns a matrix representing the basis functions for all of the overlaps
+   * @return mat
+   */
+  mat basisFunctions();
 
-  void evalHw3();
+  /**
+   * @brief Returns a matrix representing all of the shell overlaps in the cluster
+   * @return mat
+   */
+  mat overlapMatrix();
 
+  /*;
+   * @brief Returns the extended Huckel hamiltonian, H
+   * @return mat
+   */
+  mat extendedHuckelHamiltonian();
+
+  mat molecularOrbitalCoefficients();
+
+  vec eigenvalues();
+
+  /*;
+   * @brief used eigenvalues to calculate total molecular energy
+   * @return double
+   */
+  double molecularEnergy();
   /**
    * @brief calculates the distance between two atoms represented by 1d matrices with 3 values for x,y,and z respectively
    * @param a1 (mat): matrix representing the first atoms

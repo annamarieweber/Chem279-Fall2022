@@ -55,7 +55,7 @@ vec ShellOverlapIntegral::overlap_summation(vec x_p, int l_pair_a, int l_pair_b)
 
 vec ShellOverlapIntegral::product_center()
 {
-    return (_s_a.r_a() % _s_a.alpha() + _s_b.r_a() % _s_b.alpha()) / (alphas_sum());
+    return ((_s_a.alpha() % _s_a.r_a()) + (_s_b.alpha() % _s_b.r_a())) / (alphas_sum());
 }
 
 ShellOverlapIntegral::ShellOverlapIntegral() {}
@@ -69,34 +69,24 @@ ShellOverlapIntegral::ShellOverlapIntegral(Shell s_a, Shell s_b)
 mat ShellOverlapIntegral::operator()()
 {
     vec x_p = product_center();
-    mat nlm(x_p.n_elem, _s_a.num_quantum_arrangements() * _s_b.num_quantum_arrangements(), arma::fill::ones);
+    mat x_cent = _s_a.alphaMat() * _s_a.r_a() + _s_b.alphaMat() * _s_b.r_a();
+
+    mat result(_s_a.l_a(0).n_elem, _s_b.l_a(0).n_elem, arma::fill::ones);
     for (int i = 0; i < product_center().n_elem; i++)
     {
+
         int elem = 0;
         for (int k = 0; k < _s_a.num_quantum_arrangements(); k++)
         {
+            vec ktotal(x_p.n_elem, arma::fill::zeros);
+
             for (int l = 0; l < _s_b.num_quantum_arrangements(); l++)
             {
-                vec z = exponential_prefactor() % root_term() % overlap_summation(x_p, _s_a.l_a(k)(i), _s_b.l_a(l)(i));
-                // std::cout << "z at " << k << ", " << l << ": " << z << std::endl;
-                nlm.col(elem) %= z;
-                elem++;
+                ktotal += (exponential_prefactor() % root_term() % overlap_summation(x_p, _s_a.l_a(k)(i), _s_b.l_a(l)(i)));
             }
+            result.col(k) %= ktotal;
         }
     }
 
-    return nlm;
-}
-
-mat ShellOverlapIntegral::overlap(int k, int l)
-{
-    vec x_p = product_center();
-    mat z(x_p.n_elem, _s_a.num_quantum_arrangements() * _s_b.num_quantum_arrangements(), arma::fill::ones);
-
-    for (int i = 0; i < product_center().n_elem; i++)
-    {
-        z.col(i) = exponential_prefactor() % root_term() % overlap_summation(x_p, _s_a.l_a(k)(i), _s_b.l_a(l)(i));
-    }
-
-    return z;
+    return result;
 }

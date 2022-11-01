@@ -8,6 +8,9 @@
 #ifndef COMBO
 #define COMBO
 #include <string>
+#include <armadillo>
+
+using arma::vec;
 
 int factorial(int n);
 
@@ -17,4 +20,10 @@ int factorial(int n, int a);
 int ncr(int n, int r);
 
 double calc_binomial(int m, int n);
+
+vec vec_factorial(int n, int a);
+
+vec vec_factorial(int n);
+
+vec calc_binomial(vec m, vec n);
 #endif

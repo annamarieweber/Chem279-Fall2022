@@ -9,6 +9,7 @@ using arma::cube;
 using arma::mat;
 using arma::vec;
 
+using std::map;
 using std::string;
 using std::vector;
 
@@ -388,6 +389,137 @@ namespace constants
             "",                                                                                                    // Ununoctium
     };
 
+    const vector<vector<string>> VALENCE_SHELL_CONFIGS = {
+        {"(1s)"},         // Hydrogen
+        {},               // Helium
+        {},               // Lithium
+        {},               // Beryllium
+        {},               // Boron
+        {"(2s)", "(2p)"}, // Carbon
+        {"(2s)", "(2p)"}, // Nitrogen
+        {},               // Oxygen
+        {},               // Fluorine
+        {},               // Neon
+        {},               // Sodium
+        {},               // Magnesium
+        {},               // Aluminum
+        {},               // Silicon
+        {},               // Phosphorus
+        {},               // Sulfur
+        {},               // Chlorine
+        {},               // Argon
+        {},               // Potassium
+        {},               // Calcium
+        {},               // Scandium
+        {},               // Titanium
+        {},               // Vanadium
+        {},               // Chromium
+        {},               // Manganese
+        {},               // Iron
+        {},               // Cobalt
+        {},               // Nickel
+        {},               // Copper
+        {},               // Zinc
+        {},               // Gallium
+        {},               // Germanium
+        {},               // Arsenic
+        {},               // Selenium
+        {},               // Bromine
+        {},               // Krypton
+        {},               // Rubidium
+        {},               // Strontium
+        {},               // Yttrium
+        {},               // Zirconium
+        {},               // Niobium
+        {},               // Molybdenum
+        {},               // Technetium
+        {},               // Ruthenium
+        {},               // Rhodium
+        {},               // Palladium
+        {},               // Silver
+        {},               // Cadmium
+        {},               // Indium
+        {},               // Tin
+        {},               // Antimony
+        {},               // Tellurium
+        {},               // Iodine
+        {},               // Xenon
+        {},               // Cesium
+        {},               // Barium
+        {},               // Lanthanum
+        {},               // Cerium
+        {},               // Praseodymium
+        {},               // Neodymium
+        {},               // Promethium
+        {},               // Samarium
+        {},               // Europium
+        {},               // Gadolinium
+        {},               // Terbium
+        {},               // Dysprosium
+        {},               // Holmium
+        {},               // Erbium
+        {},               // Thulium
+        {},               // Ytterbium
+        {},               // Lutetium
+        {},               // Hafnium
+        {},               // Tantalum
+        {},               // Tungsten
+        {},               // Rhenium
+        {},               // Osmium
+        {},               // Iridium
+        {},               // Platinum
+        {},               // Gold
+        {},               // Mercury
+        {},               // Thallium
+        {},               // Lead
+        {},               // Bismuth
+        {},               // Polonium
+        {},               // Astatine
+        {},               // Radon
+        {},               // Francium
+        {},               // Radium
+        {},               // Actinium
+        {},               // Thorium
+        {},               // Protactinium
+        {},               // Uranium
+        {},               // Neptunium
+        {},               // Plutonium
+        {},               // Americium
+        {},               // Curium
+        {},               // Berkelium
+        {},               // Californium
+        {},               // Einsteinium
+        {},               // Fermium
+        {},               // Mendelevium
+        {},               // Nobelium
+        {},               // Lawrencium
+        {},               // Rutherfordium
+        {},               // Dubnium
+        {},               // Seaborgium
+        {},               // Bohrium
+        {},               // Hassium
+        {},               // Meitnerium
+        {},               // Darmstadtium
+        {},               // Roentgenium
+        {},               // Ununbium
+        {},               // Ununtrium
+        {},               // Ununquadium
+        {},               // Ununpentium
+        {},               // Ununhexium
+        {},               // Ununseptium
+        {},               // Ununoctium
+    };
+
+    const double K_VAL = 1.75;
+
+    const map<string, double> EXTENDED_HUCKEL_MAP = {
+        {"H(1s)", -13.6},
+        {"C(2s)", -21.4},
+        {"C(2p)", -11.4},
+        {"N(2s)", -26.0},
+        {"N(2p)", -13.4},
+    };
+
     const vector<string> ATOM_ANGULAR_MOMENTUM_MAP = {
         "0",   // Hydrogen
         "",    // Helium
@@ -509,4 +641,5 @@ namespace constants
         "",    // Ununoctium
     };
 }
+
 #endif

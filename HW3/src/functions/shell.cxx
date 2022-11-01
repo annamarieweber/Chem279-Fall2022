@@ -20,9 +20,9 @@ mat Shell::angularMomentum(int l)
     {
         for (int j = 0; j <= l - i; j++)
         {
-            amMatrix(idx, 0) = i;
+            amMatrix(idx, 2) = i;
             amMatrix(idx, 1) = j;
-            amMatrix(idx, 2) = l - i - j;
+            amMatrix(idx, 0) = l - i - j;
             idx++;
         }
     }
@@ -98,4 +98,9 @@ vec Shell::d_k()
 vec Shell::alpha()
 {
     return _alpha;
+}
+
+mat Shell::alphaMat()
+{
+    return circ_toeplitz(_alpha);
 }

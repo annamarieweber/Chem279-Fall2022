@@ -24,9 +24,17 @@ int main(int argc, char *argv[])
 		std::cout << cluster << std::endl;
 
 		std::cout << "numBasisFunctions: " << cluster.countBasisFunctions() << std::endl;
-		std::cout << "numElectrons: " << cluster.countElectronPairs() << std::endl;
+		std::cout << "numElectronPairs: " << cluster.countElectronPairs() << std::endl;
+		std::cout << "BasisFunctions:" << std::endl
+				  << cluster.basisFunctions() << std::endl;
+		std::cout << "OV_mat: " << std::endl
+				  << cluster.overlapMatrix() << std::endl;
+		std::cout << "H_mat: " << std::endl
+				  << cluster.extendedHuckelHamiltonian() << std::endl;
+		std::cout << "MO Coeffs:" << std::endl
+				  << cluster.molecularOrbitalCoefficients() << std::endl;
+		std::cout << "The molecule in file " << filename << " has energy: " << cluster.molecularEnergy() << std::endl;
 
-		cluster.evalHw3();
 		double h = 1e-4;
 	}
 	catch (std::invalid_argument &e)
