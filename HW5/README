@@ -1,13 +1,16 @@
 The energy and gradient matrices are all in the unit of eV.
+
 OV_RA : gradient of overlap matrix, rows are x y z, columns are
-overlap matrix element (S11, S12, S13 ... S21, S22 ...), so the first
-row first column will be the gradient of S11 over R_Ax (1 in atom A) 
-and so on.
+overlap matrix element (S11, S12, S13 ... S21, S22 ...), so the element
+corresponds to row x and column S_ij means the gradient of S_ij over
+R_Ax, where A is the atom that the ith AO's center is located on.
+
 gamma_RA : gradient of gamma matrix, rows are x y z, columns are atom
 pairs (A, B), so a matrix element corresponds to row y and atom pair
 (A, B) means the gradient of gamma_AB over R_Ay; an element that
 corresponds to row z and atom pair (B, C) means the gradient of 
 gamma_BC over R_Bz.
+
 gradient : gradient of energy, rows are x y z, columns are atoms. So
 the second row and Ath column means energy gradient over R_Ay.
 
