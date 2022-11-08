@@ -77,6 +77,7 @@ Ca
 Cb
    0.7071  -0.7071
    0.7071   0.7071
+arma::dot(Ptotal, H_core) / 2. = -39.0676
 Nuclear Repulsion Energy is 19.3025 eV.
 Electronic Energy is -59.8716 eV.
 The molecule in file H2.txt has energy -40.569151
