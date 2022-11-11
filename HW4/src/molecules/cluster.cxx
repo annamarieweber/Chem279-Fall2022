@@ -165,25 +165,6 @@ mat Cluster::gammaMatrix()
       vec dk_m_prime = dk_m % nk_m;
       vec dk_v_prime = dk_v % nk_v;
 
-      // std::cout << "dk m" << std::endl;
-      // std::cout << dk_m << std::endl;
-
-      // std::cout << "dk v" << std::endl;
-      // std::cout << dk_v << std::endl;
-
-      // std::cout << "nk m" << std::endl;
-      // std::cout << nk_m << std::endl;
-
-      // std::cout << "nk v" << std::endl;
-      // std::cout << nk_v << std::endl;
-
-      // std::cout << "d'K m" << std::endl;
-      // std::cout << dk_m_prime << std::endl;
-      // std::cout << "d'k v" << std::endl;
-      // std::cout << dk_v_prime << std::endl;
-      // std::cout << "d'K m elem mult d'k v" << std::endl;
-      // std::cout << dk_m_prime % dk_v_prime << std::endl;
-
       mat dk_m_prime_combos = dk_m_prime * dk_m_prime.t();
       mat dk_v_prime_combos = dk_v_prime * dk_v_prime.t();
 
@@ -226,67 +207,10 @@ mat Cluster::gammaMatrix()
 
       if (m == v)
       {
-        // std::cout << "u" << std::endl;
-        // std::cout << u << std::endl;
-        // std::cout << "circ sig b " << std::endl;
-        // std::cout << circ_toeplitz(sigma_b) << std::endl;
-        // std::cout << "vsq " << std::endl;
-        // std::cout << 1 / v_sq << std::endl;
-        // std::cout << "sqrt(2v^2)" << std::endl;
-        // std::cout << sqrt(2.0 * v_sq) << std::endl;
-        // std::cout << "sqrt(2/pi)" << std::endl;
-        // std::cout << sqrt(2.0 / M_PI) << std::endl;
-        // std::cout << "[0]^(0)" << std::endl;
-        // std::cout << u % sqrt(2.0 * v_sq) * sqrt(2.0 / M_PI) << std::endl;
-        // std::cout << "d_k * d_k' * d_l * d_l'" << std::endl;
-        // std::cout << gamma_summation_matrix << std::endl;
-        // std::cout << "d_k * d_k' * d_l * d_l * [0]^(0)'" << std::endl;
-        // std::cout << gamma_summation_matrix % (u % sqrt(2.0 * v_sq) * sqrt(2.0 / M_PI)) << std::endl;
-        // std::cout << "sum(d_k * d_k' * d_l * d_l * [0]^(0))" << std::endl;
-        // std::cout << sum(sum(gamma_summation_matrix % (u % sqrt(2.0 * v_sq) * sqrt(2.0 / M_PI)))) << std::endl;
-        // std::cout << "sum(d_k * d_k' * d_l * d_l) * sum([0]^(0))" << std::endl;
-        // std::cout << sum(sum(gamma_summation_matrix)) * sum(sum((u % sqrt(2.0 * v_sq) * sqrt(2.0 / M_PI)))) << std::endl;
         gammas(m, v) = CONVERSION_FACTOR * sum(sum(gamma_summation_matrix % (u % sqrt(2.0 * v_sq) * sqrt(2.0 / M_PI))));
       }
       else
       {
-        // std::cout << "alpha prime" << std::endl;
-        // std::cout << alpha_prime << std::endl;
-        // std::cout << "beta prime" << std::endl;
-        // std::cout << beta_prime.t() << std::endl;
-        // std::cout << "alpha prime vec" << std::endl;
-        // std::cout << alpha_prime_vec << std::endl;
-        // std::cout << "beta prime vec" << std::endl;
-        // std::cout << beta_prime_vec << std::endl;
-        // std::cout << "vsq " << std::endl;
-        // std::cout << v_sq << std::endl;
-        // std::cout << "1/vsq" << std::endl;
-        // std::cout << sigma_a_copy + circ_toeplitz(sigma_b) << std::endl;
-        // std::cout << "sig a cp" << std::endl;
-        // std::cout << sigma_a_copy << std::endl;
-        // std::cout << "circ sig b " << std::endl;
-        // std::cout << circ_toeplitz(sigma_b) << std::endl;
-        // std::cout << "u_a" << std::endl;
-        // std::cout << u_a << std::endl;
-        // std::cout << "u_b" << std::endl;
-        // std::cout << u_b << std::endl;
-        // std::cout << "u" << std::endl;
-        // std::cout << u << std::endl;
-        // std::cout << "sqrt(1/(r_a-r_b))" << std::endl;
-        // std::cout << sqrt(1.0 / pow(r_ab_dist, 2)) << std::endl;
-        // std::cout << "sqrt(t)" << std::endl;
-        // std::cout << t << std::endl;
-        // std::cout << "[0]^(0)" << std::endl;
-        // std::cout << u % t * sqrt(1.0 / pow(r_ab_dist, 2)) << std::endl;
-        // std::cout << "d_k * d_k' * d_l * d_l'" << std::endl;
-        // std::cout << gamma_summation_matrix << std::endl;
-        // std::cout << "d_k * d_k' * d_l * d_l * [0]^(0)'" << std::endl;
-        // std::cout << gamma_summation_matrix % (u % t * sqrt(1.0 / pow(r_ab_dist, 2))) << std::endl;
-        // std::cout << "sum(d_k * d_k' * d_l * d_l * [0]^(0))" << std::endl;
-        // std::cout << sum(sum(gamma_summation_matrix % (u % t * sqrt(1.0 / pow(r_ab_dist, 2))))) << std::endl;
-        // std::cout << "sum(d_k * d_k' * d_l * d_l) * sum([0]^(0))" << std::endl;
-        // std::cout << sum(sum(gamma_summation_matrix)) * sum(sum((u % t * sqrt(1.0 / pow(r_ab_dist, 2))))) << std::endl;
-
         gammas(m, v) += CONVERSION_FACTOR * sum(sum(gamma_summation_matrix % (u % t * sqrt(1.0 / pow(r_ab_dist, 2)))));
       }
     }
@@ -303,25 +227,19 @@ vec Cluster::z_vals()
   return valenceElectrons;
 }
 
-mat Cluster::hCore()
+mat Cluster::cndo2FockMatrix(mat p_a, mat p_b)
 {
   mat gamma = gammaMatrix();
+
+  mat p_tot = p_a + p_b;
+
+  mat gamma_expanded = broadcastToOrbitals(gamma);
   mat z = z_vals();
   int electron_count = sum(sum(z));
 
-  // std::cout << "gamma: " << std::endl;
-  // std::cout << gamma << std::endl;
-  // std::cout << "z: " << std::endl;
-  // std::cout << z << std::endl;
   vec gamma_z_tot = (gamma - diagmat(diagvec(gamma))) * z;
-  // std::cout << "gamma * z : " << std::endl;
-  std::cout << (gamma - diagmat(diagvec(gamma))) * z << std::endl;
-  // std::cout << "gamma z tot : " << std::endl;
-  // std::cout << gamma_z_tot << std::endl;
 
   vec diag_gamma_z = (z.col(0) - (vec(z.n_rows, fill::ones) / 2.0)) % diagvec(gamma);
-  // std::cout << "diag gamma z: " << std::endl;
-  // std::cout << diag_gamma_z << std::endl;
 
   vec expanded_diag_gamma_z(electron_count);
   vec expanded_gamma_z_tot(electron_count);
@@ -330,6 +248,11 @@ mat Cluster::hCore()
   mat bonding_params(electron_count, electron_count);
   mat h_off_diag(electron_count, electron_count, fill::ones);
   h_off_diag -= diagmat(vec(electron_count, fill::ones));
+  vec density_tot(electron_count);
+  mat g_off_diag(electron_count, electron_count, fill::ones);
+  g_off_diag -= diagmat(vec(electron_count, fill::ones));
+  vec density_gamma_off_diag(electron_count);
+  vec density_tot_by_atom(atoms.n_elem);
 
   int k = 0;
   for (int i = 0; i < atomMatrix.n_rows; i++)
@@ -339,17 +262,117 @@ mat Cluster::hCore()
     expanded_gamma_z_tot.subvec(k, k + VALENCE_ATOMIC_NUM[atoms(i) - 1] - 1).fill(gamma_z_tot(i));
     bonding_params.rows(k, k + VALENCE_ATOMIC_NUM[atoms(i) - 1] - 1) += mat(VALENCE_ATOMIC_NUM[atoms(i) - 1], electron_count).fill(ATOMIC_BONDING_PARAMETERS[atoms(i) - 1]);
     bonding_params.cols(k, k + VALENCE_ATOMIC_NUM[atoms(i) - 1] - 1) += mat(electron_count, VALENCE_ATOMIC_NUM[atoms(i) - 1]).fill(ATOMIC_BONDING_PARAMETERS[atoms(i) - 1]);
+    float density_a = sum(diagvec(p_tot.submat(k, k, k + VALENCE_ATOMIC_NUM[atoms(i) - 1] - 1, k + VALENCE_ATOMIC_NUM[atoms(i) - 1] - 1)));
+    density_tot.subvec(k, k + VALENCE_ATOMIC_NUM[atoms(i) - 1] - 1).fill(density_a);
+    density_tot_by_atom(i) = density_a;
+
     k += VALENCE_ATOMIC_NUM[atoms(i) - 1];
   }
+
+  vec gamma_density_sum = (gamma - diagmat(diagvec(gamma))) * density_tot_by_atom;
+  vec g_diag = (density_tot - diagvec(p_a)) % diagvec(gamma_expanded) + diagvec(broadcastToOrbitals(diagmat(gamma_density_sum)));
+  g_off_diag = g_off_diag % (-1.0 * p_a % gamma_expanded);
 
   h_off_diag %= (-1.0 / 2.0 * bonding_params % overlapMatrix());
 
   vec h_diag = -1 * ion_energy_electron_affinity - expanded_diag_gamma_z - expanded_gamma_z_tot;
-  return diagmat(h_diag) + h_off_diag;
+  return diagmat(h_diag) + diagmat(g_diag) + h_off_diag + g_off_diag;
 }
 
-mat Cluster::cndo2FockMatrix()
+void Cluster::calcSCFEnergy(float threshold)
 {
+  bool mats_eq = false;
+
+  mat z = z_vals();
+  int electron_count = sum(sum(z));
+
+  // store the alpha and beta density matrices
+  mat p_a(electron_count, electron_count, fill::zeros);
+  mat p_b(electron_count, electron_count, fill::zeros);
+
+  // store the old alpha and beta density matrices
+  mat p_a_old(electron_count, electron_count, fill::zeros);
+  mat p_b_old(electron_count, electron_count, fill::zeros);
+
+  // store the output fo the cndo2 fock matrix calculation
+  mat f_a(electron_count, electron_count, fill::zeros);
+  mat f_b(electron_count, electron_count, fill::zeros);
+
+  // store the eigenvectors
+  mat c_a(electron_count, electron_count, fill::zeros);
+  mat c_b(electron_count, electron_count, fill::zeros);
+
+  // store the eigenvalues
+  vec e_a(electron_count, fill::zeros);
+  vec e_b(electron_count, fill::zeros);
+
+  while (!mats_eq)
+  {
+    f_a = cndo2FockMatrix(p_a, p_b);
+    f_b = cndo2FockMatrix(p_b, p_a);
+
+    p_a_old = p_a;
+    p_b_old = p_b;
+
+    eig_sym(e_a, c_a, f_a);
+    eig_sym(e_b, c_b, f_b);
+
+    p_a = (c_a.cols(0, _p - 1) * c_a.cols(0, _p - 1).t());
+    p_b = (c_b.cols(0, _q - 1) * c_b.cols(0, _q - 1).t());
+
+    // std::cout << "p_a: " << std::endl;
+    // std::cout << p_a << std::endl;
+    // std::cout << "p_b: " << std::endl;
+    // std::cout << p_b << std::endl;
+
+    // std::cout << "f_a: " << std::endl;
+    // std::cout << f_a << std::endl;
+    // std::cout << "f_b: " << std::endl;
+    // std::cout << f_b << std::endl;
+
+    mats_eq = approx_equal(p_a_old, p_a, "absdiff", threshold) && approx_equal(p_b_old, p_b, "absdiff", threshold);
+  }
+
+  mat h_core = cndo2FockMatrix(mat(electron_count, electron_count, fill::zeros), mat(electron_count, electron_count, fill::zeros));
+
+  float electron_energy = (1.0 / 2.0) * sum(sum((p_a % (h_core + f_a) + p_b % (h_core + f_b))));
+
+  // my original goal here was to eleminiate the loop and do a sum of the triangular matrix but i couldnt figure out how to do that with the atom distances and my brain was tired
+  float nuc_repulsion = 0;
+  for (int i = 0; i < atomMatrix.n_rows; i++)
+  {
+    for (int j = 0; j < i; j++)
+    {
+      nuc_repulsion += (CONVERSION_FACTOR * ((VALENCE_ATOMIC_NUM[atomMatrix(i, 0) - 1] * VALENCE_ATOMIC_NUM[atomMatrix(j, 0) - 1]) / calcDistance(atomMatrix.row(i).cols(1, 3), atomMatrix.row(j).cols(1, 3))));
+    }
+  }
+
+  std::cout << "Nuclear Repulsion Energy is " << nuc_repulsion << " eV." << std::endl;
+  std::cout << "Electronic Energy is " << electron_energy << " eV." << std::endl;
+  std::cout << "Total Energy is " << electron_energy + nuc_repulsion << " eV." << std::endl;
+}
+
+mat Cluster::broadcastToOrbitals(mat x)
+{
+  mat z = z_vals();
+  int electron_count = sum(sum(z));
+  vec atoms = atomMatrix.col(0);
+
+  mat orbitalRepresentation(electron_count, electron_count);
+  int k = 0;
+  int l = 0;
+  for (int i = 0; i < x.n_rows; i++)
+  {
+    l = 0;
+
+    for (int j = 0; j < x.n_cols; j++)
+    {
+      orbitalRepresentation.submat(k, l, k + VALENCE_ATOMIC_NUM[atoms(i) - 1] - 1, l + VALENCE_ATOMIC_NUM[atoms(j) - 1] - 1) = mat(VALENCE_ATOMIC_NUM[atoms(i) - 1], VALENCE_ATOMIC_NUM[atoms(j) - 1]).fill(x(i, j));
+      l += VALENCE_ATOMIC_NUM[atoms(j) - 1];
+    }
+    k += VALENCE_ATOMIC_NUM[atoms(i) - 1];
+  }
+  return orbitalRepresentation;
 }
 
 mat Cluster::extendedHuckelHamiltonian()
@@ -583,6 +606,9 @@ void Cluster::addAtom(int index, int atomNum, double x, double y, double z, doub
   atomMatrix(index, 3) = z;
   epsilons(index) = e;
   sigmas(index) = s;
+  int numElectrons = countBasisFunctions();
+  _p = numElectrons / 2 + numElectrons % 2;
+  _q = numElectrons / 2;
 }
 
 std::ostream &operator<<(std::ostream &os, const Cluster &c)
